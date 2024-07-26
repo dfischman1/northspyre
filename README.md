@@ -17,6 +17,27 @@ Please extend the provided code to meet the following requirements:
 
 You are free to modify the code in any way you like, but ensure your final result is a functional web application that meets the above requirements.
 
+
+
+## App launch instructions
+
+### Backend
+
+* CD into the backend dir at `fs-take-home-main/backend`
+* Create and activate a venv with `python -m venv /path/to/venv` and then `source /path-to-venve/bin/activate`
+* Install requirements with `pip install -r requirments.txt`
+* Run the backend app with `flask run`!
+
+### Frontend
+
+* In a separate terminal you can run the frontend
+* In the `fs-take-home-main/frontend` folder, make sure you have necessary requirements by running `npm install`
+* Then run `npm start` and navigate to `http://localhost:3000` , you should see the application running
+
+
+
+
+
 #### Frontend
 
 * Framework: React
